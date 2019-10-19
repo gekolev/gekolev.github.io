@@ -8,7 +8,7 @@ html, body {
 
 
       font-family: "Lato" !important;
-      background: #0f0f0f !important;
+      background: #000 !important;
       color: #fff !important;
 }
 
@@ -73,7 +73,7 @@ html, body {
 /*--------------- navigation --------------- */
 nav {
       width: 100%;
-      background: #0f0f0f;
+      background: #000;
       height: 80px;
       position: fixed;
       z-index: 1;
@@ -153,7 +153,7 @@ nav #menu li a:hover {
       z-index: 1;
       top: 0px;
       position: fixed;
-      background: #0f0f0f;
+      background: #000;
       width: 100%;
       height: 100%;
       visibility: hidden;
@@ -303,22 +303,21 @@ h6 {
 }
 
 .project1 {
-      background: url(https://images.unsplash.com/photo-1540349220179-09d3866f2e74?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2600&q=80) no-repeat 50% 50%;
+      background: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/fb877c79100229.5cb87d5016e08.jpg) no-repeat 50% 50%;
       background-size: cover;
 }
 
 .project1::after {
-      content: "timeless flow.";
+      content: "event poster";
       font-family: "Lato";
       font-size: 36px;
       position: relative;
       color: #fff;
       display: block;
       top: 8%;
-      left: -60%;
+      left: -81%;
       right: 0;
-      bottom: 0;
-}
+      bottom: 0;}
 
 .project2 {
       background: url(https://images.unsplash.com/photo-1468870045442-e7d799d8c98a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2448&q=80) no-repeat 50% 50%;
@@ -504,7 +503,7 @@ a{
 
 .hero-content p {
       font-weight: 300;
-      line-height: 36px;
+      line-height: 20px;
       color: grey;
 }
 
@@ -528,8 +527,10 @@ a{
 }
 
 .image {
-      background: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/fb877c79100229.5cb87d5016e08.jpg) no-repeat 50% 20%;
+      background: url(https://mir-cdn.behance.net/v1/rendition/project_modules/fs/02fb8977589717.5dab58dadd877.png) no-repeat 5% 10%;
+      background-size: contain;
 }
+
 
 /*--------------- contact form --------------- */
 
@@ -621,14 +622,14 @@ textarea:focus {
 
 
 
-
+/*--------------- project page --------------- gallery options, column count 3 and 33% percent on the others if u want three columns...*/
 .gallery {
--webkit-column-count: 3;
--moz-column-count: 3;
-column-count: 3;
--webkit-column-width: 33%;
--moz-column-width: 33%;
-column-width: 33%; }
+-webkit-column-count: 2;
+-moz-column-count: 2;
+column-count: 2;
+-webkit-column-width: 50%;
+-moz-column-width: 50%;
+column-width: 50%; }
 .gallery .pics {
 -webkit-transition: all 350ms ease;
 transition: all 350ms ease; }
