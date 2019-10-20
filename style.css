@@ -391,6 +391,24 @@ h6 {
       bottom: 0;
 }
 
+.project6 {
+      background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/b64a3079906665.5cd1aaa0cccc2.png) no-repeat 50% 50%;
+      background-size: cover;
+}
+
+.project6::after {
+      content: "smartwatch";
+      font-family: "Lato";
+      font-size: 36px;
+      position: relative;
+      color: #fff;
+      display: block;
+      top: 10%;
+      left: 90%;
+      right: 0;
+      bottom: 0;
+}
+
 @media(max-width: 768px) {
       .project {
             width: 90% !important;
