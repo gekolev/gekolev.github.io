@@ -308,7 +308,7 @@ h6 {
 }
 
 .project1::after {
-      content: "event poster";
+      content: "Event poster";
       font-family: "Lato";
       font-size: 36px;
       position: relative;
@@ -325,7 +325,7 @@ h6 {
 }
 
 .project2::after {
-      content: "clothing brand";
+      content: "Clothing brand";
       font-family: "Lato";
       font-size: 36px;
       position: relative;
@@ -343,7 +343,7 @@ h6 {
 }
 
 .project3::after {
-      content: "browser game";
+      content: "Browser game";
       font-family: "Lato";
       font-size: 36px;
       position: relative;
@@ -361,7 +361,7 @@ h6 {
 }
 
 .project4::after {
-      content: "line art";
+      content: "Line art";
       font-family: "Lato";
       font-size: 36px;
       position: relative;
@@ -379,7 +379,7 @@ h6 {
 }
 
 .project5::after {
-      content: "lavender fields";
+      content: "Lavender fields";
       font-family: "Lato";
       font-size: 36px;
       position: relative;
@@ -392,12 +392,30 @@ h6 {
 }
 
 .project6 {
-      background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/b64a3079906665.5cd1aaa0cccc2.png) no-repeat 50% 50%;
+      background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/b64a3079906665.5cd1aaa0cccc2.png) no-repeat 70% 50%;
       background-size: cover;
 }
 
 .project6::after {
-      content: "smartwatch";
+      content: "Smartwatch";
+      font-family: "Lato";
+      font-size: 36px;
+      position: relative;
+      color: #fff;
+      display: block;
+      top: 10%;
+      left: 90%;
+      right: 0;
+      bottom: 0;
+}
+
+.project7 {
+      background: url(https://mir-cdn.behance.net/v1/rendition/project_modules/max_1200/f420b487126759.5daec60151337.png) no-repeat 70% 50%;
+      background-size: cover;
+}
+
+.project7::after {
+      content: "Bookcover";
       font-family: "Lato";
       font-size: 36px;
       position: relative;
@@ -419,7 +437,7 @@ h6 {
             display: none;
       }
 
-      .project1::after, .project2::after, .project3::after, .project4::after {
+      .project1::after, .project2::after, .project3::after, .project4::after, .project5::after, .project6::after, .project7::after {
             display: none;
       }
 }
