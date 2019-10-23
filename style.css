@@ -427,11 +427,47 @@ h6 {
       bottom: 0;
 }
 
+.project8 {
+      background: url(https://mir-cdn.behance.net/v1/rendition/project_modules/max_1200/ec1db877592181.5db005c29147d.jpg) no-repeat 70% 50%;
+      background-size: cover;
+}
+.project8::after {
+      content: "Vaporwave";
+      font-family: "Lato";
+      font-size: 36px;
+      position: relative;
+      color: #fff;
+      display: block;
+      top: 10%;
+      left: -30%;
+      right: 0;
+      bottom: 0;
+}
+
+.project9 {
+      background: url(https://mir-cdn.behance.net/v1/rendition/project_modules/max_1200/cf199a77592181.5db005c290bd0.png) no-repeat 70% 50%;
+      background-size: cover;
+}
+
+.projec9::after {
+      content: "SSA";
+      font-family: "Lato";
+      font-size: 36px;
+      position: relative;
+      color: #fff;
+      display: block;
+      top: 10%;
+      left: 90%;
+      right: 0;
+      bottom: 0;
+}
+
+
 @media(max-width: 768px) {
       .project {
             width: 90% !important;
             margin: 14px auto;
-      }
+      }     
 
       .vertical {
             display: none;
